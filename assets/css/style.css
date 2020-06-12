@@ -1,0 +1,25 @@
+:root{
+    --color-logo: #ff6900;
+    --color-btn-h:#FF9900;
+    --color-blanco: #ffffff;
+    --color-background:#000000;
+    --color-box: rgba(0, 0, 0, 0.6);
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-background);
+    color: var(--color-blanco);
+}
+a{
+    color: var(--color-blanco);
+    list-style: none;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
