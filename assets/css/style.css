@@ -59,19 +59,19 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../img/intro.jpg);
+    background-image: url(../../img/intro.webp);
 }
 #quien{
-    background-image: url(../../img/quien.jpg);
+    background-image: url(../../img/quien.webp);
 }
 #venta{
-    background-image: url(../../img/venta.jpg);
+    background-image: url(../../img/venta.webp);
 }
 #servi{
-    background-image: url(../../img/servi.jpg);
+    background-image: url(../../img/servi.webp);
 }
 #empre{
-    background-image: url(../../img/empre.jpg);
+    background-image: url(../../img/empre.webp);
 }
 .box{
     background-color: var(--color-box);
