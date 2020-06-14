@@ -30,6 +30,119 @@ h1,h3{
 
 }
 section{
-    height: calc(100vh - 60px);
+    overflow: hidden;
+    padding-top: 60px;
+    height: 100vh;
     text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Menu*/
+header{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-box);
+    z-index: 10;
+}
+
+/*Inicio*/
+#inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../img/intro.jpg);
+}
+#quien{
+    background-image: url(../../img/quien.jpg);
+}
+#venta{
+    background-image: url(../../img/venta.jpg);
+}
+#servi{
+    background-image: url(../../img/servi.jpg);
+}
+#empre{
+    background-image: url(../../img/empre.jpg);
+}
+.box{
+    background-color: var(--color-box);
+}
+.contenedor{
+    width: 60%;
+}
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.letf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.animado{
+    opacity: 0;
+    transition:  all 1s;
+}
+.mostrarTop{
+    animation: mostrarTop 2s;
+}
+.mostrarBottom{
+    animation: mostrarBottom 2s;
+}
+.mostrarLetf{
+    animation: mostrarLetf 2s;
+}
+.mostrarRight{
+    animation: mostrarRight 2s;
+}
+@keyframes mostrarTop{
+    0%{
+        transform: translateY(160px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes mostrarBottom{
+    0%{
+        transform: translateY(-160px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes mostrarLetf{
+    0%{
+        transform: translateX(-160px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes mostrarRight{
+    0%{
+        transform: translateX(160px);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
