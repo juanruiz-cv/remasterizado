@@ -1,10 +1,12 @@
 @font-face{
     font-family: 'zolano-sans';
     src: url(../fonts/Zolano-Sans.ttf) format('truetype');
+    font-display: swap
 }
 @font-face{
     font-family: 'bangotic';
     src: url(../fonts/Bankgothic.ttf) format('truetype');
+    font-display: swap
 }
 :root{
     --color-logo: #ff6900;
