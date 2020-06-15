@@ -139,7 +139,7 @@ body{
 header nav{
     width: 100%;
     position: fixed;
-    height: 60px;
+    height: 70px;
     background: var(--color-box);
     display: flex;
     justify-content: space-between
@@ -168,21 +168,22 @@ header nav{
 .btn-menu{
     display: flex;
     justify-content: center;
-    height: 70px;
     align-items: center;
     background: transparent;
     padding: 20px;
     z-index: 10;
     cursor: pointer;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 .btn-menu span{
     color: var(--color-blanco);
+    font-size: 30px;
+    line-height: 20px;
     z-index: 11;
 }
 .enlaces {
-    padding-top: 40px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     z-index: 9;
     position: fixed;
     height: 100vh;
@@ -209,10 +210,15 @@ header nav{
 /*Logo*/
 .logo{
     z-index: 12;
+    right: 30px;
     margin: 5px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo a{
+    margin-left: 30px;
     text-decoration: none;
 }
 .logo a h1{
