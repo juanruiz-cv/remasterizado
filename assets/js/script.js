@@ -14,6 +14,7 @@ window.addEventListener('scroll',mostrarScroll);
 
 /*Menu*/
 let boton = document.getElementById("btn-menu");
+let bnt0 = document.getElementById("0");
 let bnt1 = document.getElementById("1");
 let bnt2 = document.getElementById("2");
 let bnt3 = document.getElementById("3");
@@ -30,6 +31,13 @@ boton.addEventListener("click",function(){
         enlaces.className = ('enlaces dos');
         contador=1;
     }else{
+        enlaces.classList.remove('dos');
+        enlaces.className = ('enlaces uno');
+        contador = 0;
+    }
+})
+bnt0.addEventListener("click",function(){
+    if(contador == 1){
         enlaces.classList.remove('dos');
         enlaces.className = ('enlaces uno');
         contador = 0;
