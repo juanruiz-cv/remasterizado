@@ -23,14 +23,17 @@ let bnt5 = document.getElementById("5");
 let bnt6 = document.getElementById("6");
 let bnt7 = document.getElementById("7");
 let bnt8 = document.getElementById("8");
+let esconder = document.getElementById("esconder");
 let enlaces = document.getElementById("enlaces");
 let contador = 0;
 
 boton.addEventListener("click",function(){
     if(contador == 0){
+        esconder.className = ('esconder hiden');
         enlaces.className = ('enlaces dos');
         contador=1;
     }else{
+        esconder.classList.remove('hiden');
         enlaces.classList.remove('dos');
         enlaces.className = ('enlaces uno');
         contador = 0;
@@ -38,86 +41,71 @@ boton.addEventListener("click",function(){
 })
 bnt0.addEventListener("click",function(){
     if(contador == 1){
+        esconder.classList.remove('hiden');
         enlaces.classList.remove('dos');
         enlaces.className = ('enlaces uno');
         contador = 0;
     }
 })
 bnt1.addEventListener("click",function(){
-    if(contador == 0){
-        enlaces.className = ('enlaces dos');
-        contador=1;
-    }else{
+    if(contador == 1){
+        esconder.classList.remove('hiden');
         enlaces.classList.remove('dos');
         enlaces.className = ('enlaces uno');
         contador = 0;
     }
 })
 bnt2.addEventListener("click",function(){
-    if(contador == 0){
-        enlaces.className = ('enlaces dos');
-        contador=1;
-    }else{
+    if(contador == 1){
+        esconder.classList.remove('hiden');
         enlaces.classList.remove('dos');
         enlaces.className = ('enlaces uno');
         contador = 0;
     }
 })
 bnt3.addEventListener("click",function(){
-    if(contador == 0){
-        enlaces.className = ('enlaces dos');
-        contador=1;
-    }else{
+    if(contador == 1){
+        esconder.classList.remove('hiden');
         enlaces.classList.remove('dos');
         enlaces.className = ('enlaces uno');
         contador = 0;
     }
 })
 bnt4.addEventListener("click",function(){
-    if(contador == 0){
-        enlaces.className = ('enlaces dos');
-        contador=1;
-    }else{
+    if(contador == 1){
+        esconder.classList.remove('hiden');
         enlaces.classList.remove('dos');
         enlaces.className = ('enlaces uno');
         contador = 0;
     }
 })
 bnt5.addEventListener("click",function(){
-    if(contador == 0){
-        enlaces.className = ('enlaces dos');
-        contador=1;
-    }else{
+    if(contador == 1){
+        esconder.classList.remove('hiden');
         enlaces.classList.remove('dos');
         enlaces.className = ('enlaces uno');
         contador = 0;
     }
 })
 bnt6.addEventListener("click",function(){
-    if(contador == 0){
-        enlaces.className = ('enlaces dos');
-        contador=1;
-    }else{
+    if(contador == 1){
+        esconder.classList.remove('hiden');
         enlaces.classList.remove('dos');
         enlaces.className = ('enlaces uno');
         contador = 0;
     }
 })
 bnt7.addEventListener("click",function(){
-    if(contador == 0){
-        enlaces.className = ('enlaces dos');
-        contador=1;
-    }else{
+    if(contador == 1){
+        esconder.classList.remove('hiden');
         enlaces.classList.remove('dos');
         enlaces.className = ('enlaces uno');
         contador = 0;
     }
 })
 bnt8.addEventListener("click",function(){
-    if(contador == 0){
-        enlaces.className = ('enlaces dos');
-        contador=1;
-    }else{
+    if(contador == 1){
+        esconder.classList.remove('hiden');
         enlaces.classList.remove('dos');
         enlaces.className = ('enlaces uno');
         contador = 0;
