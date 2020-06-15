@@ -31,7 +31,7 @@ body{
     align-items: flex-end;
     z-index: 4;
 }
-.icono{
+.icono-s{
     color: white;
     text-decoration: none;
     padding: .7rem;
@@ -91,7 +91,7 @@ body{
 		z-index: 4;
 		align-content: space-between;
 	}
-	.icono{
+	.icono-s{
 		display: grid;
 		width: auto;
 		height: auto;
