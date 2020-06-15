@@ -12,7 +12,6 @@
     --color-blanco: #ffffff;
     --color-background:#000000;
     --color-box: rgba(0, 0, 0, 0.6);
-
 }
 *{
     padding: 0;
@@ -27,7 +26,6 @@ body{
     color: var(--color-blanco);
     font-family: 'Open Sans', sans-serif;
 }
-
 /*Social bar*/
 .social-bar{
     position: fixed;
